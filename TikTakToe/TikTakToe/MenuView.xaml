@@ -1,0 +1,89 @@
+﻿<controls:MetroContentControl x:Class="TikTakToe.MenuView"
+                              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                              xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                              Width="800"
+                              Height="500">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Image Grid.Column="1"
+               Width="130"
+               Height="150"
+               Source="Images\TikTak.png" />
+
+
+
+        <StackPanel Grid.Row="1"
+                    Grid.ColumnSpan="3"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+            <Button x:Name="Easy"
+                    Width="80"
+                    Height="80"
+                    Background="Purple"
+                    BorderThickness="0"
+                    Click="Difficulty_OnClick"
+                    Content="Easy"
+                    Foreground="White"
+                    Style="{DynamicResource MetroCircleButtonStyle}" />
+            <Button x:Name="Med"
+                    Width="80"
+                    Height="80"
+                    Background="Purple"
+                    BorderThickness="0"
+                    Click="Difficulty_OnClick"
+                    Content="Med"
+                    Foreground="White"
+                    Style="{DynamicResource MetroCircleButtonStyle}" />
+            <Button x:Name="Hard"
+                    Width="80"
+                    Height="80"
+                    Background="Purple"
+                    BorderThickness="0"
+                    Click="Difficulty_OnClick"
+                    Content="Hard"
+                    Foreground="White"
+                    Style="{DynamicResource MetroCircleButtonStyle}" />
+            <Button x:Name="Expert"
+                    Width="80"
+                    Height="80"
+                    Background="Purple"
+                    BorderThickness="0"
+                    Click="Difficulty_OnClick"
+                    Content="Expert"
+                    Foreground="White"
+                    Style="{DynamicResource MetroCircleButtonStyle}" />
+        </StackPanel>
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Margin="0,-40,0,0"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Content="Tik Tak Toe"
+               FontFamily="Segoe UI Light"
+               FontSize="25" />
+        <Button x:Name="PlayButton"
+                Grid.Row="2"
+                 Click="PlayButton_OnClick"
+                Grid.Column="1"
+                Width="150"
+                Height="50"
+                VerticalAlignment="Top"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Content="Play!"
+                FontFamily="Segoe UI Light"
+                FontSize="30"
+                Style="{StaticResource BStyle}" />
+
+    </Grid>
+</controls:MetroContentControl>
