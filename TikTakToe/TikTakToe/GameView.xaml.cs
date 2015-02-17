@@ -32,6 +32,8 @@ namespace TikTakToe
         {
             InitializeComponent();
             _factory = new Factory(level);
+            TurnLabel.Content = "Turno: Jugador";
+            _factory.GameView = this;
             dispatcherTimer.Tick += dispatcherTimer_Tick;
             dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
             dispatcherTimer.Start();
@@ -45,6 +47,7 @@ namespace TikTakToe
                 do
                 {
                     space = GetString(_factory.NewTurn());
+                    _factory.GameView = this;
                     if (AllAreUsed())
                     {
                         AppearGameOverMessage();
@@ -55,6 +58,7 @@ namespace TikTakToe
                 {
                     space.SetDecisionComputer();
                     _computerTurn = false;
+                    TurnLabel.Content = "Turno: Jugador";
                     CheckIfAnyWinner();
                 }
                 else if (AllAreUsed())
@@ -86,6 +90,7 @@ namespace TikTakToe
                 {
                     space.SetDecisionPlayer();
                     _computerTurn = true;
+                    TurnLabel.Content = "Turno: Computadora";
                     CheckIfAnyWinner();
                 }
                 else if (AllAreUsed())
@@ -285,6 +290,20 @@ namespace TikTakToe
             }
         }
 
+        public List<SpaceControl> GetSpaceControls()
+        {
+            List<SpaceControl> spaceControls = new List<SpaceControl>();
+            spaceControls.Add(SpaceControl1);
+            spaceControls.Add(SpaceControl2);
+            spaceControls.Add(SpaceControl3);
+            spaceControls.Add(SpaceControl4);
+            spaceControls.Add(SpaceControl5);
+            spaceControls.Add(SpaceControl6);
+            spaceControls.Add(SpaceControl7);
+            spaceControls.Add(SpaceControl8);
+            spaceControls.Add(SpaceControl9);
+            return spaceControls;
+        }
         public delegate void GoToMenulickedHandler();
         public event GoToMenulickedHandler MenuClicked;
         public void OnGoToMenuClicked()

@@ -8,10 +8,10 @@ namespace TikTakToe.Logic
 {
     public class LevelMed
     {
-        //public int SetTurn()
-        //{
-        //Random random = new Random();
-        //return random.Next(1, 9);
-        //}
+        public int SetTurn(List<int> freeSpaces)
+        {
+            Random random = new Random();
+            return random.Next(freeSpaces.Count);
+        }
     }
 }

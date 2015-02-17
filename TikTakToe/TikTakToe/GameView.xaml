@@ -26,11 +26,13 @@
                Source="Images\TikTak.png" />
 
 
-        <Label Grid.Row="0"
+        <Label x:Name="TurnLabel" Grid.Row="0"
                Grid.Column="1"
+               Grid.ColumnSpan="3"
                HorizontalAlignment="Left"
                VerticalAlignment="Center"
                Content="Turno: "
+               Width="300"
                FontFamily="Segoe UI Light"
                FontSize="25" />
         <controls1:SpaceControl x:Name="SpaceControl1"

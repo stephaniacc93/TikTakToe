@@ -1,13 +1,20 @@
 ﻿<UserControl x:Class="TikTakToe.Controls.SpaceControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" 
-             d:DesignHeight="130" d:DesignWidth="150">
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             d:DesignHeight="130"
+             d:DesignWidth="150"
+             mc:Ignorable="d">
     <Grid>
-          <Button x:Name="SpaceButton" Style="{StaticResource BStyle}" Click="SpaceButton_OnClick" Background="Transparent">
-              <Image x:Name="SpaceImage" Width="100" Height="100"/>
-          </Button>  
+        <Button x:Name="SpaceButton"
+                Background="Transparent"
+                Click="SpaceButton_OnClick"
+                Style="{StaticResource BStyle}">
+            <Image x:Name="SpaceImage"
+                   Width="100"
+                   Height="100" />
+        </Button>
+
     </Grid>
 </UserControl>
