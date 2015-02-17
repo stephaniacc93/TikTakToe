@@ -47,7 +47,7 @@ namespace TikTakToe
         private void PlayButton_OnClick(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(_difficulty))
-                OnPlayClientClicked();
+                OnPlayClientClicked(_difficulty);
             else
             {
                 var metroWindow = (MetroWindow) System.Windows.Application.Current.MainWindow;
@@ -57,13 +57,13 @@ namespace TikTakToe
             }
         }
 
-        public delegate void PlayClickedHandler();
+        public delegate void PlayClickedHandler(string level);
         public event PlayClickedHandler PlayClicked;
-        public void OnPlayClientClicked()
+        public void OnPlayClientClicked(string level)
         {
             if (PlayClicked != null)
             {
-                PlayClicked();
+                PlayClicked(level);
             }
         }
     }

@@ -5,7 +5,7 @@
                       Title="TikTakToe"
                       Width="800"
                       Height="550"
-                      Icon="../Images/TikTak.png">
+                      Icon="Images/TikTak.png">
     <Grid>
         <ScrollViewer x:Name="ScrollViewer" VerticalScrollBarVisibility="Hidden" />
 

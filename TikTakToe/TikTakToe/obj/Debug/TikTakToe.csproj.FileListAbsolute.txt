@@ -28,3 +28,33 @@ C:\Users\Stephania Cavadas\documents\visual studio 2013\Projects\TikTakToe\TikTa
 C:\Users\Stephania Cavadas\documents\visual studio 2013\Projects\TikTakToe\TikTakToe\obj\Debug\Controls\SpaceControl.g.cs
 C:\Users\Stephania Cavadas\documents\visual studio 2013\Projects\TikTakToe\TikTakToe\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Stephania Cavadas\documents\visual studio 2013\Projects\TikTakToe\TikTakToe\obj\Debug\TikTakToe_MarkupCompile.lref
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe.config
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\TikTakToe.pdb
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\MahApps.Metro.dll
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\bin\Debug\MahApps.Metro.xml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Commons\StandardStyles.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\OControl.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\SpaceControl.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\XControl.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\MainWindow.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\MenuView.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\App.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\OControl.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\SpaceControl.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\Controls\XControl.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\GameView.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\MainWindow.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\MenuView.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\App.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe_MarkupCompile.cache
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe_MarkupCompile.lref
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\GameView.baml
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.g.resources
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.Properties.Resources.resources
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csproj.GenerateResource.Cache
+C:\Users\Stephania Cavadas\Documents\TikTakToe\TikTakToe\TikTakToe\obj\Debug\TikTakToe.csprojResolveAssemblyReference.cache

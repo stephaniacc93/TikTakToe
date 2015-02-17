@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TikTakToe.Logic
 {
-    class LevelMed
+    public class LevelMed
     {
+        //public int SetTurn()
+        //{
+        //Random random = new Random();
+        //return random.Next(1, 9);
+        //}
     }
 }

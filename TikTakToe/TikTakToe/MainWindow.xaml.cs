@@ -22,7 +22,7 @@ namespace TikTakToe
     public partial class MainWindow : MetroWindow
     {
         MenuView _menuView = new MenuView();
-        GameView _gameView = new GameView();
+        private GameView _gameView;
         public MainWindow()
         {
             InitializeComponent();
@@ -30,9 +30,17 @@ namespace TikTakToe
             _menuView.PlayClicked += _menuView_PlayClicked;
         }
 
-        void _menuView_PlayClicked()
+        void _menuView_PlayClicked(string level)
         {
+            _gameView = new GameView(level);
+            _gameView.MenuClicked += _gameView_MenuClicked;
             ScrollViewer.Content = _gameView;
+        }
+
+        void _gameView_MenuClicked()
+        {
+            ScrollViewer.Content = _menuView;
+            _menuView.PlayClicked += _menuView_PlayClicked;
         }
     }
 }

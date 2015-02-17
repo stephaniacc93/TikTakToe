@@ -6,6 +6,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="130" d:DesignWidth="150">
     <Grid>
-            
+          <Button x:Name="SpaceButton" Style="{StaticResource BStyle}" Click="SpaceButton_OnClick" Background="Transparent">
+              <Image x:Name="SpaceImage" Width="100" Height="100"/>
+          </Button>  
     </Grid>
 </UserControl>
